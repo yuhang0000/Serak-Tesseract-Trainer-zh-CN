@@ -39,25 +39,28 @@
             // 
             // txttesspath
             // 
-            this.txttesspath.Location = new System.Drawing.Point(96, 44);
+            this.txttesspath.Location = new System.Drawing.Point(146, 17);
+            this.txttesspath.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txttesspath.Name = "txttesspath";
-            this.txttesspath.Size = new System.Drawing.Size(294, 20);
+            this.txttesspath.Size = new System.Drawing.Size(370, 25);
             this.txttesspath.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 47);
+            this.label1.Location = new System.Drawing.Point(13, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
+            this.label1.Size = new System.Drawing.Size(125, 15);
             this.label1.TabIndex = 1;
-            this.label1.Text = "TesseractPath";
+            this.label1.Text = "Tesseract 路径:";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(411, 41);
+            this.button1.Location = new System.Drawing.Point(524, 16);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(39, 23);
+            this.button1.Size = new System.Drawing.Size(45, 27);
             this.button1.TabIndex = 2;
             this.button1.Text = "...";
             this.button1.UseVisualStyleBackColor = true;
@@ -66,35 +69,38 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 82);
+            this.label2.Location = new System.Drawing.Point(13, 61);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 13);
+            this.label2.Size = new System.Drawing.Size(125, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "ISO-639-2 lang";
+            this.label2.Text = "ISO-639-2 语言:";
             // 
             // txtlang
             // 
-            this.txtlang.Location = new System.Drawing.Point(96, 79);
+            this.txtlang.Location = new System.Drawing.Point(146, 57);
+            this.txtlang.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtlang.Name = "txtlang";
-            this.txtlang.Size = new System.Drawing.Size(294, 20);
+            this.txtlang.Size = new System.Drawing.Size(370, 25);
             this.txtlang.TabIndex = 0;
             this.txtlang.Text = "eng";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(152, 129);
+            this.button2.Location = new System.Drawing.Point(200, 103);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 23);
+            this.button2.Size = new System.Drawing.Size(179, 27);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Save";
+            this.button2.Text = "保存(&S)";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // TesseractConfig
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(480, 172);
+            this.ClientSize = new System.Drawing.Size(581, 152);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -102,10 +108,11 @@
             this.Controls.Add(this.txtlang);
             this.Controls.Add(this.txttesspath);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TesseractConfig";
-            this.Text = "Project Configuration";
+            this.Text = "Tesseract 配置";
             this.Load += new System.EventHandler(this.TesseractConfig_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

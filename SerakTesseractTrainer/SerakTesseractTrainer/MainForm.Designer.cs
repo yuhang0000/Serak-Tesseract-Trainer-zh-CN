@@ -98,13 +98,14 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.helpToolStripMenuItem,
             this.helpToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(785, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1044, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -115,28 +116,28 @@
             this.openPorjectToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.fileToolStripMenuItem.Text = "文档";
             // 
             // newProjectToolStripMenuItem
             // 
             this.newProjectToolStripMenuItem.Name = "newProjectToolStripMenuItem";
-            this.newProjectToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
-            this.newProjectToolStripMenuItem.Text = "New project";
+            this.newProjectToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.newProjectToolStripMenuItem.Text = "新建项目";
             this.newProjectToolStripMenuItem.Click += new System.EventHandler(this.newProjectToolStripMenuItem_Click);
             // 
             // openPorjectToolStripMenuItem
             // 
             this.openPorjectToolStripMenuItem.Name = "openPorjectToolStripMenuItem";
-            this.openPorjectToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
-            this.openPorjectToolStripMenuItem.Text = "Open Project";
+            this.openPorjectToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.openPorjectToolStripMenuItem.Text = "打开项目";
             this.openPorjectToolStripMenuItem.Click += new System.EventHandler(this.openPorjectToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Text = "离开";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
@@ -145,21 +146,21 @@
             this.tesseractBinaryToolStripMenuItem,
             this.oCRModeToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
-            this.helpToolStripMenuItem.Text = "Option";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.helpToolStripMenuItem.Text = "选项";
             // 
             // tesseractBinaryToolStripMenuItem
             // 
             this.tesseractBinaryToolStripMenuItem.Name = "tesseractBinaryToolStripMenuItem";
-            this.tesseractBinaryToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.tesseractBinaryToolStripMenuItem.Text = "TesseractOption";
+            this.tesseractBinaryToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tesseractBinaryToolStripMenuItem.Text = "Tesseract 配置";
             this.tesseractBinaryToolStripMenuItem.Click += new System.EventHandler(this.tesseractOptionclick);
             // 
             // oCRModeToolStripMenuItem
             // 
             this.oCRModeToolStripMenuItem.Name = "oCRModeToolStripMenuItem";
-            this.oCRModeToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.oCRModeToolStripMenuItem.Text = "OCR Mode";
+            this.oCRModeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.oCRModeToolStripMenuItem.Text = "OCR 模式";
             this.oCRModeToolStripMenuItem.Click += new System.EventHandler(this.oCRModeToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem1
@@ -168,32 +169,33 @@
             this.aboutToolStripMenuItem,
             this.helpToolStripMenuItem2});
             this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
-            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem1.Text = "Help";
+            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(53, 24);
+            this.helpToolStripMenuItem1.Text = "帮助";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.aboutToolStripMenuItem.Text = "Help";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.aboutToolStripMenuItem.Text = "获取帮助";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.HelpMenuStripClick);
             // 
             // helpToolStripMenuItem2
             // 
             this.helpToolStripMenuItem2.Name = "helpToolStripMenuItem2";
-            this.helpToolStripMenuItem2.Size = new System.Drawing.Size(107, 22);
-            this.helpToolStripMenuItem2.Text = "About";
+            this.helpToolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
+            this.helpToolStripMenuItem2.Text = "关于";
             this.helpToolStripMenuItem2.Click += new System.EventHandler(this.AboutMenuStripClicked);
             // 
             // toolStrip1
             // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripButton2,
             this.toolStripButton3});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(785, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1044, 27);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -203,7 +205,7 @@
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton1.Text = "New Project";
             this.toolStripButton1.Click += new System.EventHandler(this.newProjectToolStripMenuItem_Click);
             // 
@@ -213,7 +215,7 @@
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton2.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton2.Text = "Open Project";
             this.toolStripButton2.Click += new System.EventHandler(this.openPorjectToolStripMenuItem_Click);
             // 
@@ -223,7 +225,7 @@
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton3.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton3.Text = "OCR Mode";
             this.toolStripButton3.Click += new System.EventHandler(this.oCRModeToolStripMenuItem_Click);
             // 
@@ -236,10 +238,11 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Enabled = false;
-            this.tabControl1.Location = new System.Drawing.Point(0, 52);
+            this.tabControl1.Location = new System.Drawing.Point(0, 60);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(785, 474);
+            this.tabControl1.Size = new System.Drawing.Size(1047, 547);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
@@ -250,23 +253,25 @@
             this.tabPage1.Controls.Add(this.button3);
             this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(777, 448);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPage1.Size = new System.Drawing.Size(1039, 518);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Train Tesseract";
+            this.tabPage1.Text = "训练 Tesseract";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.Maroon;
-            this.button7.Location = new System.Drawing.Point(19, 390);
+            this.button7.Location = new System.Drawing.Point(25, 450);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(257, 34);
+            this.button7.Size = new System.Drawing.Size(343, 39);
             this.button7.TabIndex = 2;
-            this.button7.Text = "Remove Selected";
+            this.button7.Text = "删除所选";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.removeNode);
             // 
@@ -276,20 +281,22 @@
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listBox1.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(302, 22);
+            this.listBox1.ItemHeight = 21;
+            this.listBox1.Location = new System.Drawing.Point(403, 25);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(467, 402);
+            this.listBox1.Size = new System.Drawing.Size(622, 464);
             this.listBox1.TabIndex = 1;
             // 
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(19, 142);
+            this.button4.Location = new System.Drawing.Point(25, 164);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(257, 34);
+            this.button4.Size = new System.Drawing.Size(343, 39);
             this.button4.TabIndex = 0;
-            this.button4.Text = "4. Combine TessData";
+            this.button4.Text = "4. 合并 TessData";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.combineTessdata);
@@ -297,11 +304,12 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(19, 102);
+            this.button3.Location = new System.Drawing.Point(25, 118);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(257, 34);
+            this.button3.Size = new System.Drawing.Size(343, 39);
             this.button3.TabIndex = 0;
-            this.button3.Text = "3. Train Tesseract";
+            this.button3.Text = "3. 训练 Tesseract";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -309,11 +317,12 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(19, 62);
+            this.button2.Location = new System.Drawing.Point(25, 72);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(257, 34);
+            this.button2.Size = new System.Drawing.Size(343, 39);
             this.button2.TabIndex = 0;
-            this.button2.Text = "2. Define Font_Properties";
+            this.button2.Text = "2. 配置字体属性";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.defineFontProperties);
@@ -321,11 +330,12 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(19, 22);
+            this.button1.Location = new System.Drawing.Point(25, 25);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(257, 34);
+            this.button1.Size = new System.Drawing.Size(343, 39);
             this.button1.TabIndex = 0;
-            this.button1.Text = "1. Add Train Image";
+            this.button1.Text = "1. 添加训练影像";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.AddImagesToProject);
@@ -333,12 +343,13 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.tabControl2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(777, 448);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPage2.Size = new System.Drawing.Size(1039, 518);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Modify Tessdata";
+            this.tabPage2.Text = "修改 Tessdata";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tabControl2
@@ -350,9 +361,10 @@
             this.tabControl2.Controls.Add(this.tabPage5);
             this.tabControl2.Controls.Add(this.tabPage6);
             this.tabControl2.Location = new System.Drawing.Point(0, 3);
+            this.tabControl2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(781, 449);
+            this.tabControl2.Size = new System.Drawing.Size(1041, 518);
             this.tabControl2.TabIndex = 0;
             // 
             // tabPage4
@@ -361,10 +373,11 @@
             this.tabPage4.Controls.Add(this.btnSave);
             this.tabPage4.Controls.Add(this.btncreateNew);
             this.tabPage4.Controls.Add(this.btnBrowse);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(773, 423);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPage4.Size = new System.Drawing.Size(1033, 489);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Frequent Words";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -372,19 +385,21 @@
             // txtfreqwods
             // 
             this.txtfreqwods.Enabled = false;
-            this.txtfreqwods.Location = new System.Drawing.Point(6, 34);
+            this.txtfreqwods.Location = new System.Drawing.Point(8, 39);
+            this.txtfreqwods.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtfreqwods.MaxLength = 10000000;
             this.txtfreqwods.Multiline = true;
             this.txtfreqwods.Name = "txtfreqwods";
             this.txtfreqwods.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtfreqwods.Size = new System.Drawing.Size(342, 381);
+            this.txtfreqwods.Size = new System.Drawing.Size(455, 439);
             this.txtfreqwods.TabIndex = 4;
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(366, 32);
+            this.btnSave.Location = new System.Drawing.Point(488, 37);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(137, 23);
+            this.btnSave.Size = new System.Drawing.Size(183, 27);
             this.btnSave.TabIndex = 3;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -392,9 +407,10 @@
             // 
             // btncreateNew
             // 
-            this.btncreateNew.Location = new System.Drawing.Point(103, 6);
+            this.btncreateNew.Location = new System.Drawing.Point(137, 7);
+            this.btncreateNew.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btncreateNew.Name = "btncreateNew";
-            this.btncreateNew.Size = new System.Drawing.Size(245, 23);
+            this.btncreateNew.Size = new System.Drawing.Size(327, 27);
             this.btncreateNew.TabIndex = 1;
             this.btncreateNew.Text = "Create New";
             this.btncreateNew.UseVisualStyleBackColor = true;
@@ -402,9 +418,10 @@
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(6, 6);
+            this.btnBrowse.Location = new System.Drawing.Point(8, 7);
+            this.btnBrowse.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBrowse.Name = "btnBrowse";
-            this.btnBrowse.Size = new System.Drawing.Size(78, 23);
+            this.btnBrowse.Size = new System.Drawing.Size(104, 27);
             this.btnBrowse.TabIndex = 1;
             this.btnBrowse.Text = "Browse";
             this.btnBrowse.UseVisualStyleBackColor = true;
@@ -416,10 +433,11 @@
             this.tabPage5.Controls.Add(this.btnSaveDictionary);
             this.tabPage5.Controls.Add(this.btnCreateNewDiction);
             this.tabPage5.Controls.Add(this.btnbrouseDictionary);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Location = new System.Drawing.Point(4, 25);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(773, 423);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPage5.Size = new System.Drawing.Size(1033, 489);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "Dictionary Words";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -427,19 +445,21 @@
             // txtDictionary
             // 
             this.txtDictionary.Enabled = false;
-            this.txtDictionary.Location = new System.Drawing.Point(4, 34);
+            this.txtDictionary.Location = new System.Drawing.Point(5, 39);
+            this.txtDictionary.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtDictionary.MaxLength = 10000000;
             this.txtDictionary.Multiline = true;
             this.txtDictionary.Name = "txtDictionary";
             this.txtDictionary.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDictionary.Size = new System.Drawing.Size(342, 381);
+            this.txtDictionary.Size = new System.Drawing.Size(455, 439);
             this.txtDictionary.TabIndex = 8;
             // 
             // btnSaveDictionary
             // 
-            this.btnSaveDictionary.Location = new System.Drawing.Point(364, 32);
+            this.btnSaveDictionary.Location = new System.Drawing.Point(485, 37);
+            this.btnSaveDictionary.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSaveDictionary.Name = "btnSaveDictionary";
-            this.btnSaveDictionary.Size = new System.Drawing.Size(137, 23);
+            this.btnSaveDictionary.Size = new System.Drawing.Size(183, 27);
             this.btnSaveDictionary.TabIndex = 7;
             this.btnSaveDictionary.Text = "Save";
             this.btnSaveDictionary.UseVisualStyleBackColor = true;
@@ -447,9 +467,10 @@
             // 
             // btnCreateNewDiction
             // 
-            this.btnCreateNewDiction.Location = new System.Drawing.Point(101, 6);
+            this.btnCreateNewDiction.Location = new System.Drawing.Point(135, 7);
+            this.btnCreateNewDiction.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCreateNewDiction.Name = "btnCreateNewDiction";
-            this.btnCreateNewDiction.Size = new System.Drawing.Size(245, 23);
+            this.btnCreateNewDiction.Size = new System.Drawing.Size(327, 27);
             this.btnCreateNewDiction.TabIndex = 5;
             this.btnCreateNewDiction.Text = "Create New";
             this.btnCreateNewDiction.UseVisualStyleBackColor = true;
@@ -457,9 +478,10 @@
             // 
             // btnbrouseDictionary
             // 
-            this.btnbrouseDictionary.Location = new System.Drawing.Point(4, 6);
+            this.btnbrouseDictionary.Location = new System.Drawing.Point(5, 7);
+            this.btnbrouseDictionary.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnbrouseDictionary.Name = "btnbrouseDictionary";
-            this.btnbrouseDictionary.Size = new System.Drawing.Size(78, 23);
+            this.btnbrouseDictionary.Size = new System.Drawing.Size(104, 27);
             this.btnbrouseDictionary.TabIndex = 6;
             this.btnbrouseDictionary.Text = "Browse";
             this.btnbrouseDictionary.UseVisualStyleBackColor = true;
@@ -471,10 +493,11 @@
             this.tabPage6.Controls.Add(this.btnsaveunichar);
             this.tabPage6.Controls.Add(this.btncreateunichar);
             this.tabPage6.Controls.Add(this.btnbrwseunichar);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Location = new System.Drawing.Point(4, 25);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(773, 423);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPage6.Size = new System.Drawing.Size(1033, 489);
             this.tabPage6.TabIndex = 2;
             this.tabPage6.Text = "Unichar Umbiguity";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -482,19 +505,21 @@
             // txtunicharambig
             // 
             this.txtunicharambig.Enabled = false;
-            this.txtunicharambig.Location = new System.Drawing.Point(6, 34);
+            this.txtunicharambig.Location = new System.Drawing.Point(8, 39);
+            this.txtunicharambig.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtunicharambig.MaxLength = 10000000;
             this.txtunicharambig.Multiline = true;
             this.txtunicharambig.Name = "txtunicharambig";
             this.txtunicharambig.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtunicharambig.Size = new System.Drawing.Size(342, 381);
+            this.txtunicharambig.Size = new System.Drawing.Size(455, 439);
             this.txtunicharambig.TabIndex = 12;
             // 
             // btnsaveunichar
             // 
-            this.btnsaveunichar.Location = new System.Drawing.Point(366, 32);
+            this.btnsaveunichar.Location = new System.Drawing.Point(488, 37);
+            this.btnsaveunichar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnsaveunichar.Name = "btnsaveunichar";
-            this.btnsaveunichar.Size = new System.Drawing.Size(137, 23);
+            this.btnsaveunichar.Size = new System.Drawing.Size(183, 27);
             this.btnsaveunichar.TabIndex = 11;
             this.btnsaveunichar.Text = "Save";
             this.btnsaveunichar.UseVisualStyleBackColor = true;
@@ -502,9 +527,10 @@
             // 
             // btncreateunichar
             // 
-            this.btncreateunichar.Location = new System.Drawing.Point(103, 6);
+            this.btncreateunichar.Location = new System.Drawing.Point(137, 7);
+            this.btncreateunichar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btncreateunichar.Name = "btncreateunichar";
-            this.btncreateunichar.Size = new System.Drawing.Size(245, 23);
+            this.btncreateunichar.Size = new System.Drawing.Size(327, 27);
             this.btncreateunichar.TabIndex = 9;
             this.btncreateunichar.Text = "Create New";
             this.btncreateunichar.UseVisualStyleBackColor = true;
@@ -512,9 +538,10 @@
             // 
             // btnbrwseunichar
             // 
-            this.btnbrwseunichar.Location = new System.Drawing.Point(6, 6);
+            this.btnbrwseunichar.Location = new System.Drawing.Point(8, 7);
+            this.btnbrwseunichar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnbrwseunichar.Name = "btnbrwseunichar";
-            this.btnbrwseunichar.Size = new System.Drawing.Size(78, 23);
+            this.btnbrwseunichar.Size = new System.Drawing.Size(104, 27);
             this.btnbrwseunichar.TabIndex = 10;
             this.btnbrwseunichar.Text = "Browse";
             this.btnbrwseunichar.UseVisualStyleBackColor = true;
@@ -534,20 +561,22 @@
             this.tabPage3.Controls.Add(this.label1);
             this.tabPage3.Controls.Add(this.txtLocation);
             this.tabPage3.Controls.Add(this.txtisolang);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(777, 448);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPage3.Size = new System.Drawing.Size(1039, 518);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Test OCR";
+            this.tabPage3.Text = "测试 OCR";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // progPercent
             // 
             this.progPercent.Enabled = false;
-            this.progPercent.Location = new System.Drawing.Point(464, 408);
+            this.progPercent.Location = new System.Drawing.Point(619, 471);
+            this.progPercent.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.progPercent.Name = "progPercent";
-            this.progPercent.Size = new System.Drawing.Size(274, 23);
+            this.progPercent.Size = new System.Drawing.Size(365, 27);
             this.progPercent.TabIndex = 6;
             // 
             // lblPercent
@@ -555,27 +584,30 @@
             this.lblPercent.AutoSize = true;
             this.lblPercent.Enabled = false;
             this.lblPercent.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPercent.Location = new System.Drawing.Point(399, 408);
+            this.lblPercent.Location = new System.Drawing.Point(532, 471);
+            this.lblPercent.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPercent.Name = "lblPercent";
-            this.lblPercent.Size = new System.Drawing.Size(31, 23);
+            this.lblPercent.Size = new System.Drawing.Size(43, 29);
             this.lblPercent.TabIndex = 5;
             this.lblPercent.Text = "0%";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 413);
+            this.label3.Location = new System.Drawing.Point(11, 477);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 13);
+            this.label3.Size = new System.Drawing.Size(183, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "Browse Text to Compare";
             // 
             // btnRate
             // 
             this.btnRate.Enabled = false;
-            this.btnRate.Location = new System.Drawing.Point(281, 408);
+            this.btnRate.Location = new System.Drawing.Point(375, 471);
+            this.btnRate.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRate.Name = "btnRate";
-            this.btnRate.Size = new System.Drawing.Size(75, 23);
+            this.btnRate.Size = new System.Drawing.Size(100, 27);
             this.btnRate.TabIndex = 4;
             this.btnRate.Text = "Rate";
             this.btnRate.UseVisualStyleBackColor = true;
@@ -584,9 +616,10 @@
             // btnBrowseToComp
             // 
             this.btnBrowseToComp.Enabled = false;
-            this.btnBrowseToComp.Location = new System.Drawing.Point(172, 408);
+            this.btnBrowseToComp.Location = new System.Drawing.Point(229, 471);
+            this.btnBrowseToComp.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBrowseToComp.Name = "btnBrowseToComp";
-            this.btnBrowseToComp.Size = new System.Drawing.Size(75, 23);
+            this.btnBrowseToComp.Size = new System.Drawing.Size(100, 27);
             this.btnBrowseToComp.TabIndex = 4;
             this.btnBrowseToComp.Text = "Browse";
             this.btnBrowseToComp.UseVisualStyleBackColor = true;
@@ -594,9 +627,10 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(582, 8);
+            this.button6.Location = new System.Drawing.Point(776, 9);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.Size = new System.Drawing.Size(100, 27);
             this.button6.TabIndex = 3;
             this.button6.Text = "Browse";
             this.button6.UseVisualStyleBackColor = true;
@@ -604,9 +638,10 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(663, 7);
+            this.button5.Location = new System.Drawing.Point(884, 8);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(100, 27);
             this.button5.TabIndex = 3;
             this.button5.Text = "Recognize";
             this.button5.UseVisualStyleBackColor = true;
@@ -615,43 +650,48 @@
             // txtRecognizedWord
             // 
             this.txtRecognizedWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRecognizedWord.Location = new System.Drawing.Point(11, 36);
+            this.txtRecognizedWord.Location = new System.Drawing.Point(15, 42);
+            this.txtRecognizedWord.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtRecognizedWord.Multiline = true;
             this.txtRecognizedWord.Name = "txtRecognizedWord";
             this.txtRecognizedWord.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtRecognizedWord.Size = new System.Drawing.Size(727, 357);
+            this.txtRecognizedWord.Size = new System.Drawing.Size(968, 411);
             this.txtRecognizedWord.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(213, 13);
+            this.label2.Location = new System.Drawing.Point(284, 15);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 13);
+            this.label2.Size = new System.Drawing.Size(119, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Image Location";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 13);
+            this.label1.Location = new System.Drawing.Point(11, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 13);
+            this.label1.Size = new System.Drawing.Size(111, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "ISO-Lang name";
             // 
             // txtLocation
             // 
-            this.txtLocation.Location = new System.Drawing.Point(300, 10);
+            this.txtLocation.Location = new System.Drawing.Point(400, 12);
+            this.txtLocation.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtLocation.Name = "txtLocation";
-            this.txtLocation.Size = new System.Drawing.Size(246, 20);
+            this.txtLocation.Size = new System.Drawing.Size(327, 25);
             this.txtLocation.TabIndex = 0;
             // 
             // txtisolang
             // 
-            this.txtisolang.Location = new System.Drawing.Point(95, 10);
+            this.txtisolang.Location = new System.Drawing.Point(127, 12);
+            this.txtisolang.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtisolang.Name = "txtisolang";
-            this.txtisolang.Size = new System.Drawing.Size(100, 20);
+            this.txtisolang.Size = new System.Drawing.Size(132, 25);
             this.txtisolang.TabIndex = 0;
             // 
             // timer1
@@ -660,17 +700,18 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(785, 526);
+            this.ClientSize = new System.Drawing.Size(1044, 597);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(801, 564);
-            this.MinimumSize = new System.Drawing.Size(801, 564);
+            this.MaximumSize = new System.Drawing.Size(1062, 644);
+            this.MinimumSize = new System.Drawing.Size(1062, 644);
             this.Name = "MainForm";
             this.Text = "Serak Trainer For Tesseract 3.0X";
             this.Load += new System.EventHandler(this.MainForm_Load);

@@ -23,7 +23,7 @@ namespace SerakTesseractTrainer
         private void button1_Click(object sender, EventArgs e)
         {
             fl = new OpenFileDialog();
-            fl.Filter = "Tesseract Excutables(*.exe) |*.exe";
+            fl.Filter = "可执行文件 (*.exe) |*.exe";
             fl.DefaultExt = "tesseract.exe";
             if (fl.ShowDialog()==DialogResult.OK)
             {

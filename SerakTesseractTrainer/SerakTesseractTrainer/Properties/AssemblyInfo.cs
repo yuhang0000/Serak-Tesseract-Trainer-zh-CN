@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SerakTesseractTrainer")]
-[assembly: AssemblyDescription("Discription: This software is dedicated to software developers  that deal with higher level of abstraction i.e guys that hate command lines and alot of configuration Processes. if you have any bug reports feel free to submit to me! ..  E-mail:- serak2010@gmail.com")]
+[assembly: AssemblyTitle("Serak Tesseract Trainer")]
+[assembly: AssemblyDescription("一些描述: 这个软件是专门方便训练 Tesseract 设计的, 避免了面对黑乎乎的 CMD 和其他杂七杂八的配置过程。如果您有任何错误报告, 请随时提交给我! ..  E-mail:- serak2010@gmail.com")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Serak Soft")]
-[assembly: AssemblyProduct("SerakTesseractTrainer")]
+[assembly: AssemblyProduct("Serak Tesseract Trainer")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("@Serak Soft")]
 [assembly: AssemblyCulture("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("3.02.0.0")]
+[assembly: AssemblyFileVersion("3.02.0.1217")]
