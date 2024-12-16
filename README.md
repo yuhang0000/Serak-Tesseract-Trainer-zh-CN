@@ -14,7 +14,7 @@
 * 测试你的 tessdata, 无需手动计数每个单词。
 * 可以合并打包 tessdata。
 
-#### 注意: 确保你已经配置了训练工具和 tesseract OCR 引擎。
+#### 注意: 确保你已经正确配置了训练工具和 tesseract OCR 引擎
 
 一些必要条件:
 <br><ul>
