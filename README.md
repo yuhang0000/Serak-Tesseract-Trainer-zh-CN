@@ -9,7 +9,7 @@
   * 训练 tesseract 不需要黑乎乎的 CMD 界面。
   * 以项目的方式来管理训练。
   * 测试你的 tessdata, 无需手动计数每个单词。
-  * 可以合并打包 tessdata
+  * 可以合并打包 tessdata。
 
 
 
