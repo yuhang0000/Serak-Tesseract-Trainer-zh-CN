@@ -43,92 +43,100 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(48, 48);
+            this.button1.Location = new System.Drawing.Point(64, 55);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 23);
+            this.button1.Size = new System.Drawing.Size(168, 27);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Create New Box";
+            this.button1.Text = "创建新 Box";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.createnewbox);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(226, 48);
+            this.button2.Location = new System.Drawing.Point(301, 55);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(210, 23);
+            this.button2.Size = new System.Drawing.Size(280, 27);
             this.button2.TabIndex = 0;
-            this.button2.Text = "Bootstrapping a new character set";
+            this.button2.Text = "引导一个新的字符集";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.bootstrapnewchar);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Location = new System.Drawing.Point(48, 77);
+            this.groupBox1.Location = new System.Drawing.Point(64, 89);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(166, 130);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox1.Size = new System.Drawing.Size(221, 150);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Help";
+            this.groupBox1.Text = "提示";
             // 
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(6, 19);
+            this.textBox1.Location = new System.Drawing.Point(8, 22);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(154, 99);
+            this.textBox1.Size = new System.Drawing.Size(204, 114);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Creates a new Font \r\nusing the default lang\r\nwhich is eng.";
+            this.textBox1.Text = "使用默认的语言 eng 创建一个新的字体。";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Location = new System.Drawing.Point(226, 77);
+            this.groupBox2.Location = new System.Drawing.Point(301, 89);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(210, 130);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox2.Size = new System.Drawing.Size(280, 150);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Help";
+            this.groupBox2.Text = "提示";
             // 
             // textBox2
             // 
             this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(6, 19);
+            this.textBox2.Location = new System.Drawing.Point(8, 22);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(198, 105);
+            this.textBox2.Size = new System.Drawing.Size(263, 121);
             this.textBox2.TabIndex = 0;
-            this.textBox2.Text = "If you are trying to train \r\na new character set for your lang\r\ne.g tesseract ima" +
-    "ge newbox -l yourlang batch.nochop makebox";
+            this.textBox2.Text = "如果你想为你的语言训练一个新的字符集。\r\n例如：tesseract image newbox -l yourlang batch.nochop makebox";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 20);
+            this.label1.Location = new System.Drawing.Point(68, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(208, 13);
+            this.label1.Size = new System.Drawing.Size(387, 15);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Box File Not Found With The Image Folder";
+            this.label1.Text = "在图像文件夹中找不到 Box 文件，你需要创建新 Box 。";
             // 
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox3.Font = new System.Drawing.Font("Meiryo UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(48, 218);
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(64, 252);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(382, 41);
+            this.textBox3.Size = new System.Drawing.Size(508, 47);
             this.textBox3.TabIndex = 3;
-            this.textBox3.Text = "NOTE: After Your Box Has been Created You Need  \r\n            Tools Like Qt box e" +
-    "ditor to edit your new box file";
+            this.textBox3.Text = "注意：在创建完 Box 文件之后，你需要像 Qt Box editor 、jTessBoxEditorFX 这样的工具来编辑这个文件。";
             // 
             // Box_Creator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(494, 271);
+            this.ClientSize = new System.Drawing.Size(659, 313);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox2);
@@ -136,10 +144,11 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Box_Creator";
-            this.Text = "Box Creator";
+            this.Text = "创建 Box";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

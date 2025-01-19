@@ -105,7 +105,7 @@
             this.helpToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1044, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1044, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -116,27 +116,27 @@
             this.openPorjectToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(53, 26);
             this.fileToolStripMenuItem.Text = "文档";
             // 
             // newProjectToolStripMenuItem
             // 
             this.newProjectToolStripMenuItem.Name = "newProjectToolStripMenuItem";
-            this.newProjectToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.newProjectToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.newProjectToolStripMenuItem.Text = "新建项目";
             this.newProjectToolStripMenuItem.Click += new System.EventHandler(this.newProjectToolStripMenuItem_Click);
             // 
             // openPorjectToolStripMenuItem
             // 
             this.openPorjectToolStripMenuItem.Name = "openPorjectToolStripMenuItem";
-            this.openPorjectToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.openPorjectToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.openPorjectToolStripMenuItem.Text = "打开项目";
             this.openPorjectToolStripMenuItem.Click += new System.EventHandler(this.openPorjectToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.exitToolStripMenuItem.Text = "离开";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -146,21 +146,21 @@
             this.tesseractBinaryToolStripMenuItem,
             this.oCRModeToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 26);
             this.helpToolStripMenuItem.Text = "选项";
             // 
             // tesseractBinaryToolStripMenuItem
             // 
             this.tesseractBinaryToolStripMenuItem.Name = "tesseractBinaryToolStripMenuItem";
-            this.tesseractBinaryToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tesseractBinaryToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
             this.tesseractBinaryToolStripMenuItem.Text = "Tesseract 配置";
             this.tesseractBinaryToolStripMenuItem.Click += new System.EventHandler(this.tesseractOptionclick);
             // 
             // oCRModeToolStripMenuItem
             // 
             this.oCRModeToolStripMenuItem.Name = "oCRModeToolStripMenuItem";
-            this.oCRModeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.oCRModeToolStripMenuItem.Text = "OCR 模式";
+            this.oCRModeToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.oCRModeToolStripMenuItem.Text = "测试 OCR";
             this.oCRModeToolStripMenuItem.Click += new System.EventHandler(this.oCRModeToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem1
@@ -169,20 +169,20 @@
             this.aboutToolStripMenuItem,
             this.helpToolStripMenuItem2});
             this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
-            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(53, 24);
+            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(53, 26);
             this.helpToolStripMenuItem1.Text = "帮助";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.aboutToolStripMenuItem.Text = "获取帮助";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.HelpMenuStripClick);
             // 
             // helpToolStripMenuItem2
             // 
             this.helpToolStripMenuItem2.Name = "helpToolStripMenuItem2";
-            this.helpToolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
+            this.helpToolStripMenuItem2.Size = new System.Drawing.Size(152, 26);
             this.helpToolStripMenuItem2.Text = "关于";
             this.helpToolStripMenuItem2.Click += new System.EventHandler(this.AboutMenuStripClicked);
             // 
@@ -193,9 +193,9 @@
             this.toolStripButton1,
             this.toolStripButton2,
             this.toolStripButton3});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 30);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1044, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(1044, 31);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -205,8 +205,9 @@
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 28);
             this.toolStripButton1.Text = "New Project";
+            this.toolStripButton1.ToolTipText = "新建项目";
             this.toolStripButton1.Click += new System.EventHandler(this.newProjectToolStripMenuItem_Click);
             // 
             // toolStripButton2
@@ -215,8 +216,9 @@
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton2.Size = new System.Drawing.Size(29, 28);
             this.toolStripButton2.Text = "Open Project";
+            this.toolStripButton2.ToolTipText = "打开项目";
             this.toolStripButton2.Click += new System.EventHandler(this.openPorjectToolStripMenuItem_Click);
             // 
             // toolStripButton3
@@ -225,8 +227,8 @@
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton3.Text = "OCR Mode";
+            this.toolStripButton3.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton3.Text = "测试 OCR";
             this.toolStripButton3.Click += new System.EventHandler(this.oCRModeToolStripMenuItem_Click);
             // 
             // tabControl1
@@ -379,7 +381,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage4.Size = new System.Drawing.Size(1033, 489);
             this.tabPage4.TabIndex = 0;
-            this.tabPage4.Text = "Frequent Words";
+            this.tabPage4.Text = "频繁词汇";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // txtfreqwods
@@ -401,7 +403,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(183, 27);
             this.btnSave.TabIndex = 3;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "保存";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
@@ -412,7 +414,7 @@
             this.btncreateNew.Name = "btncreateNew";
             this.btncreateNew.Size = new System.Drawing.Size(327, 27);
             this.btncreateNew.TabIndex = 1;
-            this.btncreateNew.Text = "Create New";
+            this.btncreateNew.Text = "新建";
             this.btncreateNew.UseVisualStyleBackColor = true;
             this.btncreateNew.Click += new System.EventHandler(this.btncreateNew_Click);
             // 
@@ -423,7 +425,7 @@
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(104, 27);
             this.btnBrowse.TabIndex = 1;
-            this.btnBrowse.Text = "Browse";
+            this.btnBrowse.Text = "浏览";
             this.btnBrowse.UseVisualStyleBackColor = true;
             this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
             // 
@@ -439,13 +441,13 @@
             this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage5.Size = new System.Drawing.Size(1033, 489);
             this.tabPage5.TabIndex = 1;
-            this.tabPage5.Text = "Dictionary Words";
+            this.tabPage5.Text = "词典词汇";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // txtDictionary
             // 
             this.txtDictionary.Enabled = false;
-            this.txtDictionary.Location = new System.Drawing.Point(5, 39);
+            this.txtDictionary.Location = new System.Drawing.Point(8, 39);
             this.txtDictionary.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtDictionary.MaxLength = 10000000;
             this.txtDictionary.Multiline = true;
@@ -456,34 +458,34 @@
             // 
             // btnSaveDictionary
             // 
-            this.btnSaveDictionary.Location = new System.Drawing.Point(485, 37);
+            this.btnSaveDictionary.Location = new System.Drawing.Point(488, 37);
             this.btnSaveDictionary.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSaveDictionary.Name = "btnSaveDictionary";
             this.btnSaveDictionary.Size = new System.Drawing.Size(183, 27);
             this.btnSaveDictionary.TabIndex = 7;
-            this.btnSaveDictionary.Text = "Save";
+            this.btnSaveDictionary.Text = "保存";
             this.btnSaveDictionary.UseVisualStyleBackColor = true;
             this.btnSaveDictionary.Click += new System.EventHandler(this.btnSaveDictionary_Click);
             // 
             // btnCreateNewDiction
             // 
-            this.btnCreateNewDiction.Location = new System.Drawing.Point(135, 7);
+            this.btnCreateNewDiction.Location = new System.Drawing.Point(137, 7);
             this.btnCreateNewDiction.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCreateNewDiction.Name = "btnCreateNewDiction";
             this.btnCreateNewDiction.Size = new System.Drawing.Size(327, 27);
             this.btnCreateNewDiction.TabIndex = 5;
-            this.btnCreateNewDiction.Text = "Create New";
+            this.btnCreateNewDiction.Text = "新建";
             this.btnCreateNewDiction.UseVisualStyleBackColor = true;
             this.btnCreateNewDiction.Click += new System.EventHandler(this.btnCreateNewDiction_Click);
             // 
             // btnbrouseDictionary
             // 
-            this.btnbrouseDictionary.Location = new System.Drawing.Point(5, 7);
+            this.btnbrouseDictionary.Location = new System.Drawing.Point(8, 7);
             this.btnbrouseDictionary.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnbrouseDictionary.Name = "btnbrouseDictionary";
             this.btnbrouseDictionary.Size = new System.Drawing.Size(104, 27);
             this.btnbrouseDictionary.TabIndex = 6;
-            this.btnbrouseDictionary.Text = "Browse";
+            this.btnbrouseDictionary.Text = "浏览";
             this.btnbrouseDictionary.UseVisualStyleBackColor = true;
             this.btnbrouseDictionary.Click += new System.EventHandler(this.browseDictionary);
             // 
@@ -499,7 +501,7 @@
             this.tabPage6.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage6.Size = new System.Drawing.Size(1033, 489);
             this.tabPage6.TabIndex = 2;
-            this.tabPage6.Text = "Unichar Umbiguity";
+            this.tabPage6.Text = "模糊词汇";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // txtunicharambig
@@ -521,7 +523,7 @@
             this.btnsaveunichar.Name = "btnsaveunichar";
             this.btnsaveunichar.Size = new System.Drawing.Size(183, 27);
             this.btnsaveunichar.TabIndex = 11;
-            this.btnsaveunichar.Text = "Save";
+            this.btnsaveunichar.Text = "保存";
             this.btnsaveunichar.UseVisualStyleBackColor = true;
             this.btnsaveunichar.Click += new System.EventHandler(this.btnsaveunichar_Click);
             // 
@@ -532,7 +534,7 @@
             this.btncreateunichar.Name = "btncreateunichar";
             this.btncreateunichar.Size = new System.Drawing.Size(327, 27);
             this.btncreateunichar.TabIndex = 9;
-            this.btncreateunichar.Text = "Create New";
+            this.btncreateunichar.Text = "新建";
             this.btncreateunichar.UseVisualStyleBackColor = true;
             this.btncreateunichar.Click += new System.EventHandler(this.btncreateunichar_Click);
             // 
@@ -543,7 +545,7 @@
             this.btnbrwseunichar.Name = "btnbrwseunichar";
             this.btnbrwseunichar.Size = new System.Drawing.Size(104, 27);
             this.btnbrwseunichar.TabIndex = 10;
-            this.btnbrwseunichar.Text = "Browse";
+            this.btnbrwseunichar.Text = "浏览";
             this.btnbrwseunichar.UseVisualStyleBackColor = true;
             this.btnbrwseunichar.Click += new System.EventHandler(this.btnbrwseunichar_Click);
             // 
@@ -576,7 +578,7 @@
             this.progPercent.Location = new System.Drawing.Point(619, 471);
             this.progPercent.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.progPercent.Name = "progPercent";
-            this.progPercent.Size = new System.Drawing.Size(365, 27);
+            this.progPercent.Size = new System.Drawing.Size(408, 27);
             this.progPercent.TabIndex = 6;
             // 
             // lblPercent
@@ -597,9 +599,9 @@
             this.label3.Location = new System.Drawing.Point(11, 477);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(183, 15);
+            this.label3.Size = new System.Drawing.Size(142, 15);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Browse Text to Compare";
+            this.label3.Text = "浏览文本以进行比较";
             // 
             // btnRate
             // 
@@ -609,7 +611,7 @@
             this.btnRate.Name = "btnRate";
             this.btnRate.Size = new System.Drawing.Size(100, 27);
             this.btnRate.TabIndex = 4;
-            this.btnRate.Text = "Rate";
+            this.btnRate.Text = "速率";
             this.btnRate.UseVisualStyleBackColor = true;
             this.btnRate.Click += new System.EventHandler(this.btnRate_Click);
             // 
@@ -621,29 +623,29 @@
             this.btnBrowseToComp.Name = "btnBrowseToComp";
             this.btnBrowseToComp.Size = new System.Drawing.Size(100, 27);
             this.btnBrowseToComp.TabIndex = 4;
-            this.btnBrowseToComp.Text = "Browse";
+            this.btnBrowseToComp.Text = "浏览";
             this.btnBrowseToComp.UseVisualStyleBackColor = true;
             this.btnBrowseToComp.Click += new System.EventHandler(this.button8_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(776, 9);
+            this.button6.Location = new System.Drawing.Point(819, 10);
             this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(100, 27);
             this.button6.TabIndex = 3;
-            this.button6.Text = "Browse";
+            this.button6.Text = "浏览";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.browseforRecognition);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(884, 8);
+            this.button5.Location = new System.Drawing.Point(927, 9);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(100, 27);
             this.button5.TabIndex = 3;
-            this.button5.Text = "Recognize";
+            this.button5.Text = "识别";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.recognize);
             // 
@@ -655,43 +657,43 @@
             this.txtRecognizedWord.Multiline = true;
             this.txtRecognizedWord.Name = "txtRecognizedWord";
             this.txtRecognizedWord.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtRecognizedWord.Size = new System.Drawing.Size(968, 411);
+            this.txtRecognizedWord.Size = new System.Drawing.Size(1012, 411);
             this.txtRecognizedWord.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(284, 15);
+            this.label2.Location = new System.Drawing.Point(281, 16);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 15);
+            this.label2.Size = new System.Drawing.Size(67, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Image Location";
+            this.label2.Text = "图像位置";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 15);
+            this.label1.Location = new System.Drawing.Point(12, 15);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 15);
+            this.label1.Size = new System.Drawing.Size(67, 15);
             this.label1.TabIndex = 1;
-            this.label1.Text = "ISO-Lang name";
+            this.label1.Text = "语言名称";
             // 
             // txtLocation
             // 
-            this.txtLocation.Location = new System.Drawing.Point(400, 12);
+            this.txtLocation.Location = new System.Drawing.Point(356, 12);
             this.txtLocation.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtLocation.Name = "txtLocation";
-            this.txtLocation.Size = new System.Drawing.Size(327, 25);
+            this.txtLocation.Size = new System.Drawing.Size(455, 25);
             this.txtLocation.TabIndex = 0;
             // 
             // txtisolang
             // 
-            this.txtisolang.Location = new System.Drawing.Point(127, 12);
+            this.txtisolang.Location = new System.Drawing.Point(87, 12);
             this.txtisolang.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtisolang.Name = "txtisolang";
-            this.txtisolang.Size = new System.Drawing.Size(132, 25);
+            this.txtisolang.Size = new System.Drawing.Size(186, 25);
             this.txtisolang.TabIndex = 0;
             // 
             // timer1

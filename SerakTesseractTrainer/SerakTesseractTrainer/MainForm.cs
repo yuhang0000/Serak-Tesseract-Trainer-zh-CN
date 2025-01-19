@@ -93,7 +93,7 @@ namespace SerakTesseractTrainer
         private void button3_Click(object sender, EventArgs e)
         {
             ts.TrainTesseract();
-            MessageBox.Show("Training Completed","Training Hopefully Completed Succesfully",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show("训练完成","提示",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
 
         private void tesseractOptionclick(object sender, EventArgs e)
@@ -117,9 +117,9 @@ namespace SerakTesseractTrainer
                     ShellExcutor.isolang = config[1];
                     txtisolang.Text = config[1];
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Garbage Congiguration File","Error when trying to Load Configuration File");
+                    MessageBox.Show("加载配置文档时出现问题: \r\n" + ex.Message,"Oops! ");
                     goto outofexception;
                 }
             outofexception: ;
@@ -135,7 +135,7 @@ namespace SerakTesseractTrainer
         private void btnSave_Click(object sender, EventArgs e)
         {
             ts.savefreqwords(txtfreqwods.Lines);
-            MessageBox.Show("Saved Succesfully", "Operation Succesful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("保存成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btncreateNew_Click(object sender, EventArgs e)
@@ -181,7 +181,7 @@ namespace SerakTesseractTrainer
         private void btnSaveDictionary_Click(object sender, EventArgs e)
         {
             ts.savewordlist(txtDictionary.Lines);
-            MessageBox.Show("Saved Succesfully", "Operation Succesful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("保存完成", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnbrwseunichar_Click(object sender, EventArgs e)
@@ -207,7 +207,7 @@ namespace SerakTesseractTrainer
         private void btnsaveunichar_Click(object sender, EventArgs e)
         {
             ts.saveUnicharAmbig(txtunicharambig.Lines);
-            MessageBox.Show("Saved Succesfully", "Operation Succesful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("保存完成", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void combineTessdata(object sender, EventArgs e)
@@ -298,7 +298,7 @@ namespace SerakTesseractTrainer
 
         private void removeNode(object sender, EventArgs e)
         {
-            DialogResult rs=MessageBox.Show("Are You sure You Want To Remove This Item?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult rs=MessageBox.Show("您确定要删除此项目吗？", "提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (rs==DialogResult.Yes)
             {
                 ts.removeItem(listBox1.SelectedIndex);

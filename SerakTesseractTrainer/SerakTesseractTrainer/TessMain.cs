@@ -36,13 +36,13 @@ namespace SerakTesseractTrainer
                     //try
                     //{
                         Xmlbuilder();
-                        ProjXML.Save(projectFile);  
-                    //}
-                    //catch (XMLException)
-                    //{
-                    //    MessageBox.Show("Error When Trying To Create XML File", "Error:Cannot Create File");
-                    //    return;
-                    //}
+                        ProjXML.Save(projectFile);
+                //}
+                //catch (XMLException)
+                //{
+                //    MessageBox.Show("尝试创建XML文件时出现错误", "Oops: 无法创建文件");
+                //    return;
+                //}
             }
         }
         public void Xmlbuilder()
@@ -97,7 +97,7 @@ namespace SerakTesseractTrainer
                 }
                 else
                 {
-                    MessageBox.Show("ImageFile Already Exist","File Exist",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                    MessageBox.Show("图像文件已经存在", "提示", MessageBoxButtons.OK,MessageBoxIcon.Error);
                 }
                 if (File.Exists(files.Substring(0, files.LastIndexOf('.')) + ".box"))
                 {
@@ -114,7 +114,7 @@ namespace SerakTesseractTrainer
                     }
                     else
                     {
-                        MessageBox.Show("Box Files Already Exist");
+                        MessageBox.Show("Box 文件已经存在","提示");
                     }
                 }
                 else
@@ -155,7 +155,7 @@ namespace SerakTesseractTrainer
             }
             catch(IOException)
             {
-                MessageBox.Show("File not found");
+                MessageBox.Show("找不到该文件");
             }
         }
         #region TesseractCMD Executor
@@ -170,7 +170,7 @@ namespace SerakTesseractTrainer
                 }
                 else
                 {
-                    MessageBox.Show("Box File is Missing", "Error Cannot continue excution");
+                    MessageBox.Show("Box 文件丢失", "Oops: 终止执行");
                     return;
                 }
             }
@@ -339,17 +339,17 @@ namespace SerakTesseractTrainer
                 }
                 catch (IOException ex)
                 {
-                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Oops! ", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }               
                 try
                 {
                     File.Copy(projectFolder + '\\' + ShellExcutor.isolang + ".traineddata", projectFolder + @"\Tessdata\" + ShellExcutor.isolang + @".traineddata",true);
-                    MessageBox.Show("Creation of Tessdata is Succesfull", "Completed Succesfully", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Tessdata 创建成功! ", "完成", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (IOException ex)
                 {
-                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Oops! ", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
         }
@@ -442,7 +442,7 @@ namespace SerakTesseractTrainer
             }
             catch (ArgumentOutOfRangeException ex)
             {
-                MessageBox.Show("Error Has Occurred Make sure You Have Selected An item", "Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("发生错误，请确保您选择了一个项目\r\n" + ex.Message, "Oops! ",MessageBoxButtons.OK,MessageBoxIcon.Error);
                 return;
             }  
         }
